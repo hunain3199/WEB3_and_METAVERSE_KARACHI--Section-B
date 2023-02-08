@@ -31,7 +31,7 @@ export default function Home() {
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <img src="/panaverse.png" alt="panaverse_logo" className="h-16 sm:h-16"/>
               <a href="#">
-                <h2 className="text-2xl md:text-3xl text-white font-bold">PANAVERSE DAO</h2>
+                <h2 className="text-2xl md:text-3xl text-white font-bold pr-2 sm:pr-0">PANAVERSE DAO</h2>
               </a>
               <div className="md:hidden">
                 <button
@@ -77,25 +77,25 @@ export default function Home() {
                 navbar ? 'block' : 'hidden'
               }`}
             >
-              <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white text-xl">
+              <ul className="items-center justify-center space-y-8 md:flex md:space-x-10 md:space-y-0">
+                <li className="p-2 hover:bg-opacity-50 text-white text-xl hover:bg-amber-500 hover:rounded-xl">
                   <Link href="/">
                     Home
                   </Link>
                 </li>
-                <li className="text-white text-xl">
+                <li className="p-2 hover:bg-opacity-50 text-white text-xl hover:bg-amber-500 hover:rounded-xl">
                   <Link href="/blogs">
                     Blogs
                   </Link>
                 </li>
-                <li className="text-white text-xl">
+                <li className="p-2 hover:bg-opacity-50 text-white text-xl hover:bg-amber-500 hover:rounded-xl">
                   <Link href="/about">
-                    About US
+                    About
                   </Link>
                 </li>
-                <li className="text-white text-xl">
+                <li className="p-2 hover:bg-opacity-50 text-white text-xl hover:bg-amber-500 hover:rounded-xl">
                   <Link href="/contact">
-                    Contact US
+                    Contact
                   </Link>
                 </li>
               </ul>
@@ -103,17 +103,18 @@ export default function Home() {
           </div>
         </div>
       </nav>
-      <div className=" bg-red-800 text-center shadow-inner shadow-red-200">
-        <h1 className="pt-4 sm:p-4 text-2xl sm:text-6xl font-bold text-white">
+      <div className="p-2 bg-red-800 text-center shadow-inner shadow-red-200 w-full lg:w-full">
+        <h1 className="pt-4 sm:p-4  text-2xl sm:text-6xl font-bold text-white animate__animated animate__rollIn">
         Certified Web 3.0 and Metaverse Developer: A Nationwide Program in Karachi, Lahore, Islamabad, and Peshawar
         </h1>
-        <p className="pb-4 mt-8 sm:text-2xl font-bold px-2">Getting Ready for the Next Generation and Future of the Internet  <br />  Join a 13 Trillion Dollar Industry with 5 Billion Users</p>
+        <p className="pb-4 mt-8 sm:text-2xl font-bold px-2 animate__animated animate__rollIn">Getting Ready for the Next Generation and Future of the Internet  <br />  Join a 13 Trillion Dollar Industry with 5 Billion Users</p>
       </div>
-      <h1 className="animate__animated animate__rollIn text-3xl mb-8 sm:mb-8 sm:text-4xl md:text-5xl text-center text-amber-500 mt-8 font-bold">Program of Studies</h1>
       
-      <div id="flexx" className="flex flex-col lg:flex-col md:text-center bg-red-200">
+      <h1 className="animate__animated animate__rollIn text-3xl sm:text-4xl md:text-5xl p-6 text-center text-amber-500 font-bold bg-gray-800 shadow-inner shadow-red-200">Program of Studies</h1>
+      
+      <div id="flexx" className="flex flex-col lg:flex-col md:text-center bg-red-200 sm:items-center">
           <div className="w-full flex-1  mt-8 p-8  rounded-3xl sm:w-96 lg:rounded-r-none order-1 lg:order-1 lg:w-full ">
-            <div className="mb-7 pb-7 flex items-center border-b border-amber-400">
+            <div className="mb-7 pb-7 flex items-center border-b border-amber-400 ">
               <h1 className="text-2xl animate__animated animate__rollIn animate__delay-2s">Core Courses (Common in All Specializations):</h1>
               <div className="ml-5 text-white">
                 
@@ -130,7 +131,7 @@ export default function Home() {
               </li>
               <li className="flex text-lg mb-2">
                 
-                <span className=" ml-3 sm:-ml-6">
+                <span className="ml-3 ">
                 Quarter II (Core) W2-201 :
                  <span className="text-red-900">Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform</span>
                 </span>
@@ -229,7 +230,7 @@ export default function Home() {
              
              
             </div>
-            <h1 className=" text-2xl mb-3 animate__animated animate__rollIn animate__delay-5s">Ambient Computing and IoT Specialization</h1>
+            <h1 className=" text-2xl mb-3 animate__animated animate__rollIn animate__delay-5~s">Ambient Computing and IoT Specialization</h1>
             <ul className="mb-7 font-semibold text-gray-900">
               <li className="flex text-lg mb-2">
                
@@ -298,6 +299,40 @@ export default function Home() {
           </div>
         </div>
     </div> 
+
+
+    <div className="flex flex-col bg-gray-800 items-center space-y-4 pb-10">
+    <img src="/panaverseee.png" alt="panaverse_logo" className="h-96 w-auto"/> 
+    <p className="font-black lg:text-2xl">Copyright © 2023 by Panaverse</p>
+    <div className="flex flex-col lg:flex-row space-y-4 lg:space-x-60 text-xl pb-6">
+      <ul className="font-bold space-y-4">
+        <li className="font-bold text-amber-400">COURSES</li>
+        <li>Artificial Intelligence</li>
+        <li>Cloud Native Computing</li>
+        <li>Blockchain</li>
+        <li>Internet Of Things</li>
+        <li>Web 3 & Metaverse</li>
+      </ul>
+
+      <ul className="font-bold space-y-4">
+        <li className="font-bold text-amber-400">PIAIC</li>
+        <li>Announcements</li>
+        <li>Help Center</li>
+        <li>Bootcamp 2020</li>
+        <li>Bootcamp 2021</li>
+      </ul>
+    
+    
+      <ul className="font-bold space-y-4">
+        <li className="font-bold text-amber-400">ABOUT</li>
+        <li>Saylani Welfare Trust</li>
+        <li>Sir Zia Khan (COO)</li>
+        <li>PanaCloud</li>
+      </ul>
+    </div>
+    
+    <h1 className="text-2xl pt-6 text-white font-extrabold border-t border-amber-400 w-full text-center">Made by Muhammad Hunain</h1>
+    </div>
     </>
   );
 }
